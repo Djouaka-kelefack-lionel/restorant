@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restoran - Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="icon">🍴</span>
+                <span class="brand">Restoran</span>
+            </div>
+            <!-- Ajout du bouton menu -->
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">SERVICE</a>
+                <a href="#">MENU</a>
+                <a href="#">PAGES</a>
+                <a href="#">CONTACT</a>
+                <button class="book-btn">BOOK A TABLE</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="hero-decoration"></div>
+        <div class="hero-content">
+            <h1>Enjoy Our<br>Delicious Meal</h1>
+            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et 
+               eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore 
+               erat amet</p>
+            <button class="book-btn">BOOK A TABLE</button>
+        </div>
+        <div class="hero-image">
+            <img src="/img/grill.jpg" alt="Grilled meat and vegetables">
+        </div>
+    </main>
+
+    <!-- Ajout de la section promotions -->
+    <section class="promotions">
+        <div class="promo-card">
+            <div class="promo-image">
+                <img src="/img/burger.jpg" alt="Tasty Burger">
+            </div>
+            <div class="promo-content">
+                <h3>Tasty Thursdays</h3>
+                <div class="discount">20% Off</div>
+                <button class="order-btn">Order Now <span class="cart-icon">🛒</span></button>
+            </div>
+        </div>
+
+        <div class="promo-card">
+            <div class="promo-image">
+                <img src="/img/pizza.jpg" alt="Pizza">
+            </div>
+            <div class="promo-content">
+                <h3>Pizza Days</h3>
+                <div class="discount">15% Off</div>
+                <button class="order-btn">Order Now <span class="cart-icon">🛒</span></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ajout de la section menu -->
+    <section class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-filters">
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">Burger</button>
+            <button class="filter-btn">Pizza</button>
+            <button class="filter-btn">Pasta</button>
+            <button class="filter-btn">Fries</button>
+        </div>
+
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="menu-image">
+                    <img src="/img/pizza1.jpg" alt="Delicious Pizza">
+                </div>
+                <div class="menu-content">
+                    <h3>Delicious Pizza</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                    <div class="menu-footer">
+                        <span class="price">$20</span>
+                        <button class="cart-btn">🛒</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-image">
+                    <img src="/img/burger1.jpg" alt="Delicious Burger">
+                </div>
+                <div class="menu-content">
+                    <h3>Delicious Burger</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                    <div class="menu-footer">
+                        <span class="price">$15</span>
+                        <button class="cart-btn">🛒</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-image">
+                    <img src="/img/pizza2.jpg" alt="Delicious Pizza">
+                </div>
+                <div class="menu-content">
+                    <h3>Delicious Pizza</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                    <div class="menu-footer">
+                        <span class="price">$17</span>
+                        <button class="cart-btn">🛒</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-image">
+                    <img src="/img/pasta.jpg" alt="Delicious Pasta">
+                </div>
+                <div class="menu-content">
+                    <h3>Italian Pasta</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                    <div class="menu-footer">
+                        <span class="price">$18</span>
+                        <button class="cart-btn">🛒</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-image">
+                    <img src="/img/burger.jpg" alt="Special Burger">
+                </div>
+                <div class="menu-content">
+                    <h3>Special Burger</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                    <div class="menu-footer">
+                        <span class="price">$22</span>
+                        <button class="cart-btn">🛒</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-image">
+                    <img src="/img/pizza.jpg" alt="Supreme Pizza">
+                </div>
+                <div class="menu-content">
+                    <h3>Supreme Pizza</h3>
+                    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                    <div class="menu-footer">
+                        <span class="price">$25</span>
+                        <button class="cart-btn">🛒</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Après la section menu -->
+    <section class="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <h3>Welcome to <span class="highlight">Restoran</span></h3>
+                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
+                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                <div class="about-features">
+                    <div class="feature">
+                        <div class="feature-icon">👨‍🍳</div>
+                        <h4>Master Chefs</h4>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🍽️</div>
+                        <h4>Quality Food</h4>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                    </div>
+                </div>
+                <button class="book-btn">BOOK A TABLE</button>
+            </div>
+            <div class="about-image">
+                <img src="/img/pizza.jpg" alt="Restaurant interior">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Company</h3>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Reservation</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Condition</a>
+            </div>
+            <div class="footer-section contact-info">
+                <h3>Contact</h3>
+                <p class="address">123 Street, New York, USA</p>
+                <p class="phone">+012 345 67890</p>
+                <p class="email">info@example.com</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Opening</h3>
+                <p>Monday - Saturday</p>
+                <p>09AM - 09PM</p>
+                <p>Sunday</p>
+                <p>10AM - 08PM</p>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for updates.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email">
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span class="highlight">Restoran</span>. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
