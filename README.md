@@ -161,5 +161,3 @@ restaurant-website/
 - **Galerie photos** avec lightbox.
 - Support pour un **menu multilingue**.
 - Mise en place d’un **système de commande en ligne**.
-
----
